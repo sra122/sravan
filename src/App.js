@@ -12,7 +12,7 @@ import Projects from './Website/Projects';
 import Acheivements from './Website/Acheivements';
 
 const App = () => (
-  <div className='App'>
+  <div className='App' style={{minHeight: "90vh"}}>
     
     <Routes>
     <Route path="/" element={<Home />}/>
