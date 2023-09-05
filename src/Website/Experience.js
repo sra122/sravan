@@ -17,8 +17,11 @@ function Projects() {
                         <div class="uk-card-body">
                             <h3><span class="uk-button-text">IOT Developer</span></h3>
                             <h5 class="uk-margin-remove">Feb 2023 - Present</h5>
-                            <p>Developing Software components for IOT devices using Java</p>
+                            <p>Develop IOT components for BMW</p>
                             <ul class="uk-text-left">
+                                <li>Worked on BMW Profile Personalization for Car Dashboard with JavaEE along with AWS stack.</li>
+                                <li>Maintaining code base for different regions around the world and deploying through pipeline.</li>
+                                <li>Developing RESTful APIs that serve all BMW vehicles around the world.</li>
                             </ul>
                         </div>
                     </div>
@@ -34,7 +37,7 @@ function Projects() {
                             <img src="/Experience/iways.png" alt="" style={{width: "50%", maxWidth: "50%"}}/>
                         </div>
                         <div class="uk-card-body">
-                            <h3><span class="uk-button-text">Software Developer (Java / PHP / Blockchain)</span></h3>
+                            <h3><span class="uk-button-text">Senior Software Developer/ Full Stack Developer (Java / PHP / Blockchain)</span></h3>
                             <h5 class="uk-margin-remove">March 2019 - Jan 2023</h5>
                             <p>Developed Software components with Java, Php, Blockchain.</p>
                             <ul class="uk-text-left">

@@ -9,15 +9,15 @@ function ContactForm() {
   
       emailjs
         .sendForm(
-          "service_ro8gppe",
-          "template_49mw2wl",
+          "service_cmhxzae",
+          "template_b9u2v4s",
           form.current,
           "eCea-pB1SWg6TGqbv"
         )
         .then(
           (result) => {
             console.log(result.text);
-            alert("SUCCESS!");
+            document.location.href="/";
           },
           (error) => {
             console.log(error.text);

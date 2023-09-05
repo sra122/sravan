@@ -10,7 +10,7 @@ function Home() {
                     <div>
                         <br></br><br></br>
                         <h1>Hi all 👋 I'm Sravan</h1>
-                        <h4>A passionate Full Stack Developer 🚀 having an experience of building Software components with Java / PHP / Blockchain / Typescript / Cloud environments</h4>
+                        <h4>A passionate Senior Software Developer 🚀 having an experience of building Software components with Java / PHP / Blockchain / Typescript / Cloud environments</h4>
                         <div>
                             <SocialIcon url="https://www.linkedin.com/in/sravan-kumar-30862078/" target="_blank" rel="noopener noreferrer"/>
                             <span> </span>

@@ -11,7 +11,7 @@ const skills = [
   { href: '#react_', title: 'React' },
   { href: '#php_', title: 'PHP 7+' },
   { href: '#java_', title: 'Java' },
-  { href: '#java_', title: 'SpringBoot' },
+  { href: '#sprintboot', title: 'SpringBoot' },
   { href: '#javascript_', title: 'Javascript' },
   { href: '#flutter_', title: 'Flutter' },
   { href: '#angular', title: 'Angular' },
@@ -25,6 +25,11 @@ const skills = [
   { href: '#graphQl', title: 'GraphQL' },
   { href: '#rabbitmq', title: 'RabbitMQ' },
   { href: '#sns', title: 'SNS' },
+  { href: '#grafana', title: 'Grafana' },
+  { href: '#kibana', title: 'Kibana' },
+  { href: '#prometheus', title: 'Prometheus' },
+  { href: '#javaee', title: 'JavaEE' },
+  { href: '#postman', title: 'Postman' },
 ];
 
 const Skills = ({ ...rest }) => {
