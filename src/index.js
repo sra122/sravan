@@ -11,8 +11,11 @@ import Navigation from './navigation/Navigation';
 import App from "./App";
 import { BrowserRouter } from 'react-router-dom';
 import Footer from './footer/Footer';
+import "./i18n";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const queryParameters = new URLSearchParams(window.location.search)
+console.log("check ", queryParameters.get("lang"));
 root.render(
   <BrowserRouter>
     <Navigation />

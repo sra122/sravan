@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Projects() {
+    const { t } = useTranslation();
     return (
         <div class="uk-container">
             <br></br>
@@ -14,12 +16,12 @@ function Projects() {
                 <div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title"><span class="uk-button-text">Good Carbon - Blockchain</span></h3>
-                        <p>Developing virtual Carbon coins using Blockchain technology by deploying it on Polygon Network.</p>
+                        <p>{t('good_carbon_description')}</p>
                         <ul class="uk-text-left">
-                            <li>Research on connecting Java with Blockchain network.</li>
-                            <li>Developed contracts using the Solidity programming language.</li>
-                            <li>Understanding and maintaining the life cycle of Carbon coins.</li>
-                            <li>Designed Microservice Architecture to integrate its service units.</li>
+                            <li>{t('good_carbon_point1')}</li>
+                            <li>{t('good_carbon_point2')}</li>
+                            <li>{t('good_carbon_point3')}</li>
+                            <li>{t('good_carbon_point4')}</li>
                         </ul>
                     </div>
                 </div>
@@ -35,13 +37,13 @@ function Projects() {
                 <div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title"><span class="uk-button-text">Eu4Digital</span></h3>
-                        <p>Developing a Cross Border Ecommerce that connects with eBay for countries like Azerbaijan, Georgia and Armenia.</p>
+                        <p>{t('eu4_digital_description')}</p>
                         <ul class="uk-text-left">
-                            <li>Set up a distribution system for collecting data from different sources.</li>
-                            <li>Authorizing the user with the eBay system.</li>
-                            <li>Handling payment system.</li>
-                            <li>Managing the Products and Orders.</li>
-                            <li>Deployment services to AWS (EC2) instance using Jenkins.</li>
+                            <li>{t('eu4_digital_point1')}</li>
+                            <li>{t('eu4_digital_point2')}</li>
+                            <li>{t('eu4_digital_point3')}</li>
+                            <li>{t('eu4_digital_point4')}</li>
+                            <li>{t('eu4_digital_point5')}</li>
                         </ul>
                     </div>
                 </div>
@@ -54,11 +56,11 @@ function Projects() {
                 <div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title"><span class="uk-button-text">Porsche Digital</span></h3>
-                        <p>A marketing campaign for Porsche Digital</p>
+                        <p>{t('porsche_digital_description')}</p>
                         <ul class="uk-text-left">
-                            <li>Extracting the data from GraphQL.</li>
-                            <li>Adapting the data according to the Marketing portals.</li>
-                            <li>Synchronizing the inventory information.</li>
+                            <li>{t('porsche_digital_point1')}</li>
+                            <li>{t('porsche_digital_point2')}</li>
+                            <li>{t('porsche_digital_point3')}</li>
                         </ul>
                     </div>
                 </div>
@@ -71,11 +73,11 @@ function Projects() {
                 <div>
                     <div class="uk-card-body">
                         <h3 class="uk-card-title"><span class="uk-button-text">TradeIn</span></h3>
-                        <p>Trading in electronic devices within eBay.</p>
+                        <p>{t('tradein_description')}</p>
                         <ul class="uk-text-left">
-                            <li>Develop TradeIn Application within the eBay ecosystem.</li>
-                            <li>Integrate external APIs for trade-in calculation for electronic devices.</li>
-                            <li>Tracking user activity within the application.</li>
+                            <li>{t('tradein_point1')}</li>
+                            <li>{t('tradein_point2')}</li>
+                            <li>{t('tradein_point3')}</li>
                         </ul>
                     </div>
                 </div>

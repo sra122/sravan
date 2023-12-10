@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { useTranslation } from 'react-i18next';
 
 function ContactForm() {
+    const { t } = useTranslation();
     const form = useRef(0);
   
     const sendEmail = (e) => {
@@ -45,7 +47,7 @@ function ContactForm() {
                 </div>
 
                 <div class="uk-margin">
-                    <label class="uk-form-label" for="email_body">Message</label>
+                    <label class="uk-form-label" for="email_body">{t('message')}</label>
                     <div class="uk-form-controls">
                         <textarea class="uk-textarea" name="message" id="form-horizontal-text email_body" type="text" rows="5" cols="40" required></textarea>
                     </div>

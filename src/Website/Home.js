@@ -1,16 +1,18 @@
 import React from "react";
 import { SocialIcon } from 'react-social-icons';
+import { useTranslation } from "react-i18next";
 
 
 function Home() {
+    const { t } = useTranslation();
     return (
         <div class="uk-container">
             <div class="uk-child-width-expand@s uk-text-center uk-grid">
                 <div>
                     <div>
                         <br></br><br></br>
-                        <h1>Hi all 👋 I'm Sravan</h1>
-                        <h4>A passionate Senior Software Developer 🚀 having an experience of building Software components with Java / PHP / Blockchain / Typescript / Cloud environments</h4>
+                        <h1>{t('hello')}</h1>
+                        <h4>{t('description')}</h4>
                         <div>
                             <SocialIcon url="https://www.linkedin.com/in/sravan-kumar-30862078/" target="_blank" rel="noopener noreferrer"/>
                             <span> </span>
@@ -20,7 +22,7 @@ function Home() {
                         </div>
                         <br></br>
                         <div>
-                            <a class="uk-button uk-button-default uk-border-pill" href="/contact">Contact Me</a>
+                            <a class="uk-button uk-button-default uk-border-pill" href="/contact">{t('contactMe')}</a>
                             <span>     </span>
                             <a class="uk-button uk-button-default uk-border-pill" href="/Resume.pdf" download>Resume</a>
                         </div>

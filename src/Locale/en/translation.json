@@ -1,0 +1,71 @@
+{
+    "skill": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "achievements": "Certificates",
+    "contact": "Contact",
+
+
+    "hello": "Hi all 👋 I'm Sravan",
+    "description": "A passionate Senior Software Developer 🚀 having an experience of building Software components with Java / PHP / Blockchain / Typescript / Cloud environments",
+
+
+
+    "good_carbon_description": "Developing virtual Carbon coins using Blockchain technology by deploying it on Polygon Network.",
+    "good_carbon_point1": "Research on connecting Java with Blockchain network",
+    "good_carbon_point2": "Developed contracts using the Solidity programming language",
+    "good_carbon_point3": "Understanding and maintaining the life cycle of Carbon coins",
+    "good_carbon_point4": "Designed Microservice Architecture to integrate its service units",
+
+    "eu4_digital_description": "Developing a Cross Border Ecommerce that connects with eBay for countries like Azerbaijan, Georgia and Armenia.",
+    "eu4_digital_point1": "Set up a distribution system for collecting data from different sources",
+    "eu4_digital_point2": "Authorizing the user with the eBay system",
+    "eu4_digital_point3": "Handling payment system",
+    "eu4_digital_point4": "Managing the Products and Orders",
+    "eu4_digital_point5": "Deployment services to AWS (EC2) instance using Jenkins",
+
+    "porsche_digital_description": "A marketing campaign for Porsche Digital",
+    "porsche_digital_point1": "Extracting the data from GraphQL",
+    "porsche_digital_point2": "Adapting the data according to the Marketing portals",
+    "porsche_digital_point3": "Synchronizing the inventory information",
+
+    "tradein_description": "Trading in electronic devices within eBay.",
+    "tradein_point1": "Develop TradeIn Application within the eBay ecosystem",
+    "tradein_point2": "Integrate external APIs for trade-in calculation for electronic devices",
+    "tradein_point3": "Tracking user activity within the application",
+
+
+    "conceptreply_description": "Develop IOT components for BMW",
+    "conceptreply_point1": "Worked on BMW Profile Personalization for Car Dashboard with JavaEE along with AWS stack",
+    "conceptreply_point2": "Maintaining code base for different regions around the world and deploying through pipeline",
+    "conceptreply_point3": "Developing RESTful APIs that serve all BMW vehicles around the world",
+
+    "iways_fulltime_description": "Developed Software components with Java, Php, Blockchain.",
+    "iways_fulltime_point1": "Developing virtual Carbon coins using Blockchain technology by deploying it on Polygon Network",
+    "iways_fulltime_point2": "Developing a Cross Border Ecommerce that connects with eBay for countries like Azerbaijan, Georgia and Armenia",
+    "iways_fulltime_point3": "A marketing campaign for Porsche Digital using GraphQL",
+    "iways_fulltime_point4": "Trading application feature to eBay Germany",
+
+    "iways_werkstudent_description": "Integrate European sellers with Chinese Marketplace (JD.com) implementing Cross Border eCommerce.",
+    "iways_werkstudent_point1": "Research and Development about integrating Cross Border ERP system",
+    "iways_werkstudent_point2": "Develop an app within Plentymarkets",
+    "iways_werkstudent_point3": "Exchanging the data by translating bidirectional between the EU and Chinese markets",
+    "iways_werkstudent_point4": "Deployment to Amazon Web Services (EC2) instance",
+
+    "influry_internship_description": "Developing an influencer platform that connects various brands to marketing their products.",
+    "influry_internship_point1": "Fetching the Instagram user details like followers and posts information",
+    "influry_internship_point2": "Developing backend solutions to calculate campaign budgets based on the count of followers",
+    "influry_internship_point3": "Developing a platform for influencers",
+
+    "igate_description": "Developing a platform for managing hospital activities.",
+    "igate_point1": "Develop doctor and patient assignment management",
+    "igate_point2": "Maintaining patient records with high security",
+
+
+    "developer": "Developer",
+    "workstudent": "Workstudent",
+    "tillnow": "Present",
+
+    "message": "Message",
+    "contactMe": "Contact me"
+}

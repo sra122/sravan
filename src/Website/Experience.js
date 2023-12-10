@@ -1,6 +1,8 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Projects() {
+    const { t } = useTranslation();
     return (
         <div class="uk-container">
             <br></br>
@@ -15,13 +17,13 @@ function Projects() {
                             <img src="/Experience/concept-reply.png" alt="" style={{width: "50%", maxWidth: "50%"}}/>
                         </div>
                         <div class="uk-card-body">
-                            <h3><span class="uk-button-text">IOT Developer</span></h3>
-                            <h5 class="uk-margin-remove">Feb 2023 - Present</h5>
-                            <p>Develop IOT components for BMW</p>
+                            <h3><span class="uk-button-text">IOT {t('developer')}</span></h3>
+                            <h5 class="uk-margin-remove">Feb 2023 - {t('tillnow')}</h5>
+                            <p>{t('conceptreply_description')}</p>
                             <ul class="uk-text-left">
-                                <li>Worked on BMW Profile Personalization for Car Dashboard with JavaEE along with AWS stack.</li>
-                                <li>Maintaining code base for different regions around the world and deploying through pipeline.</li>
-                                <li>Developing RESTful APIs that serve all BMW vehicles around the world.</li>
+                                <li>{t('conceptreply_point1')}</li>
+                                <li>{t('conceptreply_point2')}</li>
+                                <li>{t('conceptreply_point3')}</li>
                             </ul>
                         </div>
                     </div>
@@ -37,14 +39,14 @@ function Projects() {
                             <img src="/Experience/iways.png" alt="" style={{width: "50%", maxWidth: "50%"}}/>
                         </div>
                         <div class="uk-card-body">
-                            <h3><span class="uk-button-text">Senior Software Developer/ Full Stack Developer (Java / PHP / Blockchain)</span></h3>
+                            <h3><span class="uk-button-text">Senior Software {t('developer')}/ Full Stack {t('developer')} (Java / PHP / Blockchain)</span></h3>
                             <h5 class="uk-margin-remove">March 2019 - Jan 2023</h5>
-                            <p>Developed Software components with Java, Php, Blockchain.</p>
+                            <p>{t('iways_fulltime_description')}</p>
                             <ul class="uk-text-left">
-                                <li>Developing virtual Carbon coins using Blockchain technology by deploying it on Polygon Network.</li>
-                                <li>Developing a Cross Border Ecommerce that connects with eBay for countries like Azerbaijan, Georgia and Armenia.</li>
-                                <li>A marketing campaign for Porsche Digital using GraphQL</li>
-                                <li>Trading application feature to eBay Germany.</li>
+                                <li>{t('iways_fulltime_point1')}</li>
+                                <li>{t('iways_fulltime_point2')}</li>
+                                <li>{t('iways_fulltime_point3')}</li>
+                                <li>{t('iways_fulltime_point4')}</li>
                             </ul>
                         </div>
                     </div>
@@ -60,14 +62,14 @@ function Projects() {
                             <img src="/Experience/iways.png" alt="" style={{width: "50%", maxWidth: "50%"}}/>
                         </div>
                         <div class="uk-card-body">
-                            <h3><span class="uk-button-text">Workstudent - Software Developer</span></h3>
+                            <h3><span class="uk-button-text">{t('workstudent')} - Software {t('developer')}</span></h3>
                             <h5 class="uk-margin-remove">Nov 2017 - March 2019</h5>
-                            <p>Integrate European sellers with Chinese Marketplace (JD.com) implementing Cross Border eCommerce.</p>
+                            <p>{t('iways_werkstudent_description')}</p>
                             <ul class="uk-text-left">
-                                <li>Research and Development about integrating Cross Border ERP system.</li>
-                                <li>Develop an app within Plentymarkets.</li>
-                                <li>Exchanging the data by translating bidirectional between the EU and Chinese markets.</li>
-                                <li>Deployment to Amazon Web Services (EC2) instance.</li>
+                                <li>{t('iways_werkstudent_point1')}</li>
+                                <li>{t('iways_werkstudent_point2')}</li>
+                                <li>{t('iways_werkstudent_point3')}</li>
+                                <li>{t('iways_werkstudent_point4')}</li>
                             </ul>
                         </div>
                     </div>
@@ -83,13 +85,13 @@ function Projects() {
                             <img src="/Experience/influry.png" alt="" style={{width: "50%", maxWidth: "50%"}}/>
                         </div>
                         <div class="uk-card-body">
-                            <h3><span class="uk-button-text">Internship - Software Developer</span></h3>
+                            <h3><span class="uk-button-text">Internship - Software {t('developer')}</span></h3>
                             <h5 class="uk-margin-remove">May 2017 - Aug 2017</h5>
-                            <p>Developing an influencer platform that connects various brands to marketing their products.</p>
+                            <p>{t('influry_internship_description')}</p>
                             <ul class="uk-text-left">
-                                <li>Fetching the Instagram user details like followers and posts information.</li>
-                                <li>Developing backend solutions to calculate campaign budgets based on the count of followers.</li>
-                                <li>Developing a platform for influencers.</li>
+                                <li>{t('influry_internship_point1')}</li>
+                                <li>{t('influry_internship_point2')}</li>
+                                <li>{t('influry_internship_point3')}</li>
                             </ul>
                         </div>
                     </div>
@@ -102,12 +104,12 @@ function Projects() {
                             <img src="/Experience/igate.png" alt="" />
                         </div>
                         <div class="uk-card-body">
-                            <h3><span class="uk-button-text">Software Developer</span></h3>
+                            <h3><span class="uk-button-text">Software {t('developer')}</span></h3>
                             <h5 class="uk-margin-remove">June 2014 - Aug 2015</h5>
-                            <p>Developing a platform for managing hospital activities.</p>
+                            <p>{t('igate_description')}</p>
                             <ul class="uk-text-left">
-                                <li>Develop doctor and patient assignment management.</li>
-                                <li>Maintaining patient records with high security.</li>
+                                <li>{t('igate_point1')}</li>
+                                <li>{t('igate_point2')}</li>
                             </ul>
                         </div>
                     </div>

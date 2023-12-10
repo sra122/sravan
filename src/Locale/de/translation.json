@@ -1,0 +1,70 @@
+{
+    "skill": "Fahigkeiten",
+    "projects": "Projekte",
+    "experience": "Erfahrungen",
+    "achievements": "Zertifikate",
+    "contact": "Kontakt",
+
+
+    "hello": "Moin 👋",
+    "description": "Ich bin Sravan, ein leidenschaftlicher Senior Software Entwickler🚀 mit Erfahrung in der Erstellung von Softwarekomponenten mit Java / PHP / Blockchain / Typescript / Cloud-Umgebungen",
+
+
+
+    "good_carbon_description": "Entwicklung virtueller Kohlenstoff-Coins mit Hilfe der Blockchain-Technologie durch Einsatz im Polygon Netzwerk.",
+    "good_carbon_point1": "Forschung zur Verbindung von Java mit dem Blockchain-Netzwerk",
+    "good_carbon_point2": "Entwicklung von Verträgen mit der Programmiersprache Solidity",
+    "good_carbon_point3": "Verständnis und Pflege des Lebenszyklus von Kohlenstoff-Coins",
+    "good_carbon_point4": "Entwicklung einer Microservice-Architektur zur Integration der Diensteinheiten",
+
+    "eu4_digital_description": "Entwicklung eines grenzüberschreitenden E-Commerce-Systems, das eine Verbindung zu eBay für Länder wie Aserbaidschan, Georgien und Armenien herstellt.",
+    "eu4_digital_point1": "Einrichtung eines Verteilungssystems zur Sammlung von Daten aus verschiedenen Quellen.",
+    "eu4_digital_point2": "Autorisierung des Nutzers mit dem eBay-System.",
+    "eu4_digital_point3": "Abwicklung des Zahlungssystems",
+    "eu4_digital_point4": "Verwaltung von Produkten und Aufträgen",
+    "eu4_digital_point5": "Bereitstellungsdienste für AWS (EC2)-Instanzen mit Jenkins",
+
+    "porsche_digital_description": "Eine Marketingkampagne für Porsche Digital.",
+    "porsche_digital_point1": "Extrahieren der Daten aus GraphQL",
+    "porsche_digital_point2": "Anpassen der Daten an die Marketingportale",
+    "porsche_digital_point3": "Synchronisierung der Bestandsinformationen",
+
+    "tradein_description": "Handel mit elektronischen Geräten bei eBay",
+    "tradein_point1": "Entwicklung der TradeIn-Anwendung innerhalb des eBay-Systems",
+    "tradein_point2": "Integration externer APIs für die Berechnung der Inzahlungnahme von elektronischen Geräten",
+    "tradein_point3": "Verfolgung von Benutzeraktivitäten innerhalb der Anwendung.",
+
+
+    "conceptreply_description": "Entwicklung von IOT-Komponenten für BMW",
+    "conceptreply_point1": "Arbeite an der BMW-Profil-Personalisierung für das Auto-Dashboard mit JavaEE und AWS-Stack.",
+    "conceptreply_point2": "Pflege der Code-Basis für verschiedene Regionen auf der ganzen Welt und Bereitstellung über die Pipeline.",
+    "conceptreply_point3": "Entwicklung von RESTful APIs, die BMW Fahrzeuge auf der ganzen Welt bedienen.",
+
+    "iways_fulltime_description": "Entwicklung von Softwarekomponenten mit Java, Php, Blockchain.",
+    "iways_fulltime_point1": "Entwicklung virtueller Kohlenstoff-Coins mit Hilfe der Blockchain-Technologie durch Einsatz im Polygon Network.",
+    "iways_fulltime_point2": "Entwicklung eines grenzüberschreitenden E-Commerce-Systems, das eine Verbindung zu eBay für Länder wie Aserbaidschan, Georgien und Armenien herstellt.",
+    "iways_fulltime_point3": "Eine Marketingkampagne für Porsche Digital mit GraphQL.",
+    "iways_fulltime_point4": "Handelsanwendung bei eBay Deutschland.",
+
+    "iways_werkstudent_description": "Integration von europäischen Verkäufern in den chinesischen Marktplatz (JD.com) zur Umsetzung des grenzüberschreitenden eCommerce.",
+    "iways_werkstudent_point1": "Forschung und Entwicklung zum Theme Integration eines grenzüberschreitenden ERP-Systems.",
+    "iways_werkstudent_point2": "Entwicklung einer App für  Plentymarkets.",
+    "iways_werkstudent_point3": "Austausch von Daten durch bidirektionale Übersetzung zwischen dem EU- und dem chinesischen Markt.",
+    "iways_werkstudent_point4": "Bereitstellung auf einer Amazon Web Services (EC2)-Instanz.",
+
+    "influry_internship_description": "Entwicklung einer Influencer-Plattform, die verschiedene Marken mit der Vermarktung ihrer Produkte verbindet.",
+    "influry_internship_point1": "Abrufen der Instagram-Nutzerdetails wie Follower- und Beitragsinformationen.",
+    "influry_internship_point2": "Entwicklung von Backend-Lösungen zur Berechnung von Kampagnenbudgets auf der Grundlage der Anzahl der Follower.",
+    "influry_internship_point3": "Entwicklung einer Plattform für Influencer.",
+
+    "igate_description": "Entwicklung einer Plattform für die Verwaltung von Krankenhausaktivitäten.",
+    "igate_point1": "Entwicklung eines Arzt- und Patientenzuweisungsmanagements.",
+    "igate_point2": "Führen von Patientenakten mit hoher Sicherheit.",
+
+    "developer": "Entwickler",
+    "workstudent": "Werkstudent",
+    "tillnow": "bis jetzt",
+
+    "message": "Nachricht",
+    "contactMe": "Kontakt"
+}
